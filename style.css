@@ -20,7 +20,7 @@
 
 }
 .close-button_inside-element{
-    background-image: url("ImagesMenu/cross.svg");
+    background-image: url("Image/cross.svg");
     width:16px;
     height:16px;
     left:11.5px;
@@ -28,7 +28,7 @@
     position: relative;
 }
 .navigation__logo-button{
-    background-image: url("ImagesMenu/Group.svg");
+    background-image: url("Image/Group.svg");
     width:97px;
     height:51px;
     position: absolute;
@@ -47,7 +47,7 @@
     border-radius: 20px;
 }
 .search-button_inside-element{
-    background-image: url("ImagesMenu/search.svg");
+    background-image: url("Image/search.svg");
     background-repeat: no-repeat;
     width:17px;
     height:17px;
@@ -91,7 +91,7 @@
     font-weight: 400;
     /* Браузер сначала попробует найти шрифт локально */
     src: local("TTLakes-Regular"),
-    url("FontsMenu/TTLakes-Regular.ttf") format("ttf");
+    url("Fonts/TTLakes-Regular.ttf") format("ttf");
 
 }
 .menu-list li{
@@ -144,7 +144,7 @@ a{
     background-color: #ffaac9;
 }
 .tel_inside-element{
-    background-image: url("ImagesMenu/tel.svg");
+    background-image: url("Image/tel.svg");
     width:18px;
     height:18px;
     position:absolute;
@@ -162,7 +162,7 @@ a{
     border-radius: 20px;
 }
 .message_inside-element{
-    background-image: url("ImagesMenu/mess.svg");
+    background-image: url("Image/mess.svg");
     width:20px;
     height:20px;
     position:absolute;
@@ -182,7 +182,7 @@ a{
 }
 
 .contact_inside-element{
-    background-image: url("ImagesMenu/Conticon.svg");
+    background-image: url("Image/Conticon.svg");
     width:20px;
     height:18px;
     position:absolute;
@@ -226,7 +226,7 @@ a{
 .navigation-body-container__decoration{
     width:4px;
     height:32px;
-    background-image: url("ImagesMenu/highlight.svg");
+    background-image: url("Image/highlight.svg");
     background-repeat: no-repeat;
     top:116px;
     position: relative;
