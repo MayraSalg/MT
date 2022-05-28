@@ -9,7 +9,7 @@
 .brands{
     display: flex;
     width:100%;;
-    height:234px;
+    height:334px;
     border-top: 1px solid #D9FFF5;
     overflow: hidden;
     background-color: lightpink;
@@ -18,7 +18,7 @@
     padding-right: 16px;
 }
 .brands__title{
-    padding: 16px;
+    padding:16px;
     margin-top: 0;
     margin-bottom: 16px;
     font-weight: normal;
@@ -67,6 +67,7 @@
     position: relative;
 }
 .swiper {
+    display: block;
     width: 260px;
     height: 110px;
     position: relative;
@@ -76,7 +77,171 @@
     position: relative;
     top:88px;
 }
-@media{
+.brands-repair{
+    display: none;
+}
+.brands__item:nth-child(10),
+.brands__item:nth-child(11)
+{
+    display:none;
+}
+.text-in{
+    display: none;
+}
 
+@media(min-width:768px){
+    .brands{
+        position: relative;
+        display: flex;
+        width:100%;
+        height:322px;
+        border-top: 1px solid #D9FFF5;
+        overflow: hidden;
+        background-color: lightpink;
+        margin-top: -8px;
+        margin-left: -8px;
+        padding-right: 16px;
+    }
+    .swiper{
+        display: none;
+    }
+    .brands-repair{
+        display: flex;
+        position: relative;
+        top:24px;
+        flex-wrap: wrap;
+        width:720px;
+        height:208px;
+        background-color: rgba(169,29,204,0.65);
+        margin-left:24px;
+        top:79px;
+        align-items: stretch;
+    }
+    .brands__list {
+        display: flex;
+        position: relative;
+        top:-20px;
+        flex-direction: row;
+        justify-content: right;
+        padding: 10px;
 
+    }
+    .brands-repair .brands__item{
+        display: flex;
+        position: relative;
+        flex-wrap: wrap;
+        width: 190px;
+        margin-bottom: 35px;
+    }
+.content{
+    position: relative;
+    max-height:0;
+    overflow: hidden;
+    transition: 0.3s;
+}
+.accordion a{
+    text-decoration: none;
+    color:black;
+}
+    .text-out{
+        font-family: "TTLakes-Regular", sans-serif;
+        font-size: 16px;
+        position: relative;
+        left:25px;
+        display: inline;
+    }
+    .arrows{
+        position: relative;
+        right:120px;
+    }
+
+.brands__item:nth-child(7),
+.brands__item:nth-child(8),
+.brands__item:nth-child(9){
+    position: relative;
+    height:0;
+    display: none;
+}
+    .brands__item:nth-child(10),
+    .brands__item:nth-child(11)
+    {
+        display:none;
+    }
+    .text-in{
+        display: none;
+        font-family: "TTLakes-Regular", sans-serif;
+        font-size: 16px;
+        position: relative;
+        left:40px;
+        top:20px;
+    }
+    .reversed-arrows{
+        position: relative;
+        right:110px;
+    }
+
+}
+@media(min-width:1120px){
+    .brands{
+        position: relative;
+        display: flex;
+        width:100%;
+        height:322px;
+        border-top: 1px solid #D9FFF5;
+        overflow: hidden;
+        background-color: lightpink;
+        margin-top: -8px;
+        margin-left: -8px;
+        padding-right: 16px;
+    }
+    .swiper{
+        display: none;
+    }
+    .brands-repair{
+        display: flex;
+        position: relative;
+        top:24px;
+        flex-wrap: wrap;
+        width:1040px;
+        height:208px;
+        background-color: rgba(169,29,204,0.65);
+        margin-left:33px;
+        top:79px;
+        align-items: stretch;
+    }
+
+    .brands__item:nth-child(10),
+    .brands__item:nth-child(11)
+    {
+        display:flex;
+    }
+    .brands-repair .brands__item{
+        margin-right:24px;
+        width:19%;
+        height:72px;
+    }
+    .text-out{
+        display: inline;
+        font-family: "TTLakes-Regular", sans-serif;
+        font-size: 16px;
+        position: relative;
+        left:25px;
+        top:0;
+    }
+    .arrows{
+        position: relative;
+        right:120px;
+    }
+.text-in{
+    display: none;
+    font-family: "TTLakes-Regular", sans-serif;
+    font-size: 16px;
+    position: relative;
+    top:140px;
+    left:-730px;
+}
+    .reversed-arrows{
+        position: relative;
+        right:110px;
+    }
 }

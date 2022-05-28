@@ -28,7 +28,7 @@
     position: relative;
 }
 .navigation__logo-button{
-    background-image: url("Image/Group.svg");
+    background-image: url("../../Test/Group.svg");
     width:97px;
     height:51px;
     position: absolute;
