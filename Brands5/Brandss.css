@@ -89,7 +89,9 @@
 .text-in{
     display: none;
 }
-
+.swiper-pagination-bullet.swiper-pagination-bullet-active{
+    background-color: grey;
+}
 @media(min-width:768px){
     .brands{
         position: relative;
